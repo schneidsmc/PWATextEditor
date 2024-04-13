@@ -80,7 +80,7 @@ You can click the link above but this is what the URL looks like: https://pwatex
 
 This is a short gif showing the functionality of the PWA.
 
-<img src="./images/Install.gif" alt="Installed and Stored" width="600" height="auto"> 
+<img src="./images/giphy.gif" alt="Installed and Stored" width="600" height="auto"> 
 
 Here is a screenshot of the Manifest.json.
 
