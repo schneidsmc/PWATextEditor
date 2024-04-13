@@ -28,10 +28,16 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // Implement asset caching
 registerRoute(
-  // request
-
-  // name of the cache storage
-
-  // PLugin, CacheableResponsePlugin
-    // status
+  // callback function that will filter the requests we want to cache
+  ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
+  new StaleWhileRevalidate({
+    // name of the cache storage
+    cacheName: 'asset-cache',
+    plugins: [
+      // Plugin will chache responses with these headers to a max-age of 30 days
+      new CacheableResponsePlugin({
+        statuses: [0, 200]
+      })
+    ]
+  })
 );
