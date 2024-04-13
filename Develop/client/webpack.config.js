@@ -18,11 +18,21 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+      // Webpack plugin that generates the html file and injects the bundles
+
+      // Injects custom service worker
+
+      // Create manifest.json file
+
+
     ],
 
     module: {
+      // CSS loaders
       rules: [
+        // test/exclude
+
+        // babel loader
         
       ],
     },
