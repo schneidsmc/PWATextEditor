@@ -101,7 +101,9 @@ This is a screenshot of the application deployed using Render. You can see the U
 
 ## Author 👋🏽
 
-Deployed Render URL: [PWA Text Editor]()
+Deployed Render URL: [PWA Text Editor]( https://pwatexteditor-njc8.onrender.com/)
+
+Git Hub Repo: [PWA Text Editor](https://github.com/schneidsmc/PWATextEditor.git)
 
 GitHub Username: [schneidsmc](https://github.com/schneidsmc)
 
